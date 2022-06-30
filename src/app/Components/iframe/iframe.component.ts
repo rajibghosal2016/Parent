@@ -9,7 +9,7 @@ export class IframeComponent implements OnInit, OnDestroy {
 
   constructor() { }
   ngOnDestroy(): void {
-    console.log('iframe parent component destroyed');
+    //console.log('iframe parent component destroyed');
   }
 
   ngOnInit(): void {
